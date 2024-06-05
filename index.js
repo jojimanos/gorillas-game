@@ -276,3 +276,12 @@ window.addEventListener("resize", () => {
   initializeBombPosition();
   draw();
 });
+
+// control the angle and velocity DOM elements
+const angle1DOM = document.querySelector("#info-left .angle")
+const velocity1DOM = document.querySelector("#info-left .velocity")
+
+const angle2DOM = document.querySelector("#info-right .angle")
+const velocity2DOM = document.querySelector("#info-right .velocity")
+
+const bombGrabAreaDOM = document.getElementById("bomb-grab-area")
